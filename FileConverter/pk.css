@@ -1,0 +1,106 @@
+body {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  background-color: bisque;
+  position: relative;
+
+  background-image: url("csv3.png"), url("html3.png");
+  background-size: 300px 300px;
+  background-repeat: no-repeat;
+  background-position: right 30px center, left 30px center;
+}
+
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 3px solid;
+  border-radius: 20px;
+}
+
+h1 {
+  margin-top: 0;
+  color: goldenrod;
+  font-size: 28px;
+  font-family: 'Poppins', sans-serif;
+}
+
+input[type="file"],
+select {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  color: #555;
+}
+
+select {
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+}
+
+button {
+  padding: 14px 28px;
+  background-color: #4CAF50;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.result-container {
+  margin-top: 40px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #ffffff;
+  text-align: left;
+}
+
+.result-heading {
+  color: #4CAF50;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.result-content {
+  font-size: 16px;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+#textFileInput{
+  color: #45a049;
+}
+input#textFileInput {
+  color: green;
+  width: 473px;
+  height: 30px;
+}
+
+
+
+
+
+  
+
+
+
+
+
