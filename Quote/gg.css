@@ -1,0 +1,73 @@
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("spring2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: green;
+    text-align: center;
+    padding: 40px;
+}
+
+header h1 {
+    color: #fff;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 120px);
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 12px;
+    border: 2px solid;
+    border-color: #599122;
+    margin: 10px;
+    max-width: 300px;
+}
+
+.container p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.cl {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.cl:hover {
+    background-color: #45a049;
+}
+
+#workQuote, #relationshipQuote {
+    font-size: 20px;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+
+
+
+
+
