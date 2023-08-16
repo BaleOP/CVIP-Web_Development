@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>UrbaneSeat</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  </head>
+  <body>
+
+    <header class = "header">
+      <div class = "head-top">
+        <a href = "index.html" class = "brand-name">
+          Urbane
+          <span>Seat</span>
+        </a>
+        <div>
+          <span class = "head-icon">
+            <i class = "fas fa-search"></i>
+          </span>
+          <span class = "head-icon">
+            <i class = "fas fa-bell"></i>
+          </span>
+          <span class = "head-icon">
+            <i class = "fas fa-shopping-bag"></i>
+          </span>
+          <span id="cart-count">0</span>
+          <span class = "head-icon">
+            <i class = "fas fa-user-circle"></i>
+          </span>
+        </div>
+      </div>
+
+      <div class = "head-body container">
+        <div class = "head-body-content">
+          <h1 class = "head-title">
+            welcome to UrbaneSeat furniture
+          </h1>
+          <p class = "text">
+            Experience comfort and style redefined with UrbaneSeat Furniture - where luxury meets functionality in every piece.
+          </p>
+          <button type = "button" class = "btn">
+            shop now
+          </button>
+        </div>
+
+        <div class = "head-body-img">
+          <img src = "Header.jpg" alt = "header image">
+        </div>
+      </div>
+    </header>
+
+    <section class = "trend">
+      <div class = "container">
+        <div class = "title">
+          <h4>trending now</h4>
+          <h2>bestsellers</h2>
+        </div>
+
+        <div class = "trend-grid">
+
+          <div class = "trend-item">
+            <img src = "Velvet Beige Sofa Set.webp" alt = "best product">
+            <div class = "trend-item-content">
+              <h4>Velvet Beige Sofa Set</h4>
+              <h4>$70.00</h4>
+              <div class = "stars">
+                <span><i class = "fas fa-star"></i></span>
+                <span><i class = "fas fa-star"></i></span>
+                <span><i class = "fas fa-star"></i></span>
+                <span><i class = "fas fa-star"></i></span>
+                <span><i class = "far fa-star"></i></span>
+              </div>
+              <span class = "chevron-icon">
+                <i class = "fas fa-chevron-right"></i>
+              </span>
+            </div>
+          </div>
+
+          <div class = "trend-item">
+            <img src = "Inseros White Sofa.avif" alt = "best product">
+            <div class = "trend-item-content">
+              <h4>Inseros White Sofa</h4>
+              <h4>$80.00</h4>
+              <div class = "stars">
+                <span><i class = "fas fa-star"></i></span>
+                <span><i class = "fas fa-star"></i></span>
+                <span><i class = "fas fa-star"></i></span>
+                <span><i class = "fas fa-star"></i></span>
+                <span><i class = "far fa-star"></i></span>
+              </div>
+              <span class = "chevron-icon">
+                <i class = "fas fa-chevron-right"></i>
+              </span>
+            </div>
+          </div>
+
+          <div class = "trend-item">
+            <img src = "Darcy Lounge Chair.webp" alt = "best product">
+            <div class = "trend-item-content">
+              <h4>Darcy Lounge Chair</h4>
+              <h4>$40.00</h4>
+              <div class = "stars">
+                <span><i class = "fas fa-star"></i></span>
+                <span><i class = "fas fa-star"></i></span>
+                <span><i class = "fas fa-star"></i></span>
+                <span><i class = "fas fa-star"></i></span>
+                <span><i class = "far fa-star"></i></span>
+              </div>
+              <span class = "chevron-icon">
+                <i class = "fas fa-chevron-right"></i>
+              </span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <div class = "underline"></div>
+
+    <section class = "featured">
+      <div class = "container">
+
+        <div class = "featured-item">
+          <div class = "featured-item-img">
+            <img src = "Rolled arms.webp" alt = "feature image">
+          </div>
+          <div class = "featured-item-content">
+            <div class = "title">
+              <h4>featured product </h4>
+              <h2></h2>
+              <p class = "item-price">$45.00</p>
+            </div>
+            <p class = "text">
+              Indulge in classic luxury with our Rolled Arms Sofa Sets. Elevate your space with timeless designs and ultimate comfort.
+            </p>
+            <div class = "featured-btns">
+              <button type = "button" class = "btn">Explore</button>
+              <button type = "button" class = "btn" onclick="updateCartCount()" >Purchase</button>
+            </div>
+          </div>
+        </div>
+
+        <div class = "featured-item">
+          <div class = "featured-item-img">
+            <img src = "Adrian Velvet Sofa.jpg" alt = "feature image">
+          </div>
+          <div class = "featured-item-content">
+            <div class = "title">
+              <h4>featured product </h4>
+              <h2>Adrain Velvet Sofa</h2>
+              <p class = "item-price">$38.00</p>
+            </div>
+            <p class = "text">
+              Adrian Velvet Sofa: Luxurious comfort and chic design converge, transforming your space into an elegant haven.
+            </p>
+            <div class = "featured-btns">
+              <button type = "button" class = "btn">Explore</button>
+              <button type = "button" class = "btn" onclick="updateCartCount()">Purchase</button>
+            </div>
+          </div>
+        </div>
+
+        <div class = "featured-item">
+          <div class = "featured-item-img">
+            <img src = "Sheesham Wood Sofa Cum Bed.webp" alt = "feature image">
+          </div>
+          <div class = "featured-item-content">
+            <div class = "title">
+              <h4>featured product </h4>
+              <h2>Sheesham Wood Sofa Cum Bed</h2>
+              <p class = "item-price">$68.00</p>
+            </div>
+            <p class = "text">
+              Seamless style and dual functionality meet in our Sheesham Wood Sofa Cum Bed collection. Elevate versatility.
+            </p>
+            <div class = "featured-btns">
+              <button type = "button" class = "btn">Explore</button>
+              <button type = "button" class = "btn"  onclick="updateCartCount()">Purchase</button>
+            </div>
+          </div>
+        </div>
+
+        <div class = "featured-item">
+          <div class = "featured-item-img">
+            <img src = "Reversible Sofa.webp" alt = "feature image">
+          </div>
+          <div class = "featured-item-content">
+            <div class = "title">
+              <h4>featured product </h4>
+              <h2>Reversible Sectional sofa</h2>
+              <p class = "item-price">$89.5</p>
+            </div>
+            <p class = "text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quasi consequatur veniam, veritatis necessitatibus rem voluptas pariatur doloremque id culpa, eveniet, ratione libero eos fuga.
+            </p>
+            <div class = "featured-btns">
+              <button type = "button" class = "btn">Explore</button>
+              <button type = "button" class = "btn" onclick="updateCartCount()">Purchase</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class = "blog">
+      <div class = "container">
+        <div class = "title">
+          <h4>daily updates</h4>
+          <h2>trendy blogs</h2>
+        </div>
+
+        <div class = "blog-grid">
+          <div class = "blog-item">
+            <div class = "blog-item-img">
+              <img src = "Blog1.jpg" alt = "blog image">
+            </div>
+            <div class = "blog-item-content">
+              <a href = "https://www.homelivingfurniture.com/blog404/custom-options-that-showcase-your-good-taste">creative ideas for decoration</a>
+              <div>
+                <span>may 14 | design | furniture</span>
+              </div>
+            </div>
+          </div>
+
+          <div class = "blog-item">
+            <div class = "blog-item-img">
+              <img src = "Blog2.jpg" alt = "blog image">
+            </div>
+            <div class = "blog-item-content">
+              <a href = "https://www.homelivingfurniture.com/blog403/5-ways-to-personalize-your-home">5 Ways to Personalize your Home</a>
+              <div>
+                <span>May 14 | design | furniture</span>
+              </div>
+            </div>
+          </div>
+
+          <div class = "blog-item">
+            <div class = "blog-item-img">
+              <img src = "Blog3.jpg" alt = "blog image">
+            </div>
+            <div class = "blog-item-content">
+              <a href = "https://www.homelivingfurniture.com/blog">Rustic Decor Ideas for Casual Living</a>
+              <div>
+                <span>May 14 | design | furniture</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class = "newsletter">
+      <div class = "container">
+        <div class = "newsletter-content">
+          <div class = "title">
+            <h4>subscribe to our newsletter</h4>
+            <h2>Newsletter</h2>
+          </div>
+          
+          <form>
+            <div class = "form-group">
+              <input type = "email" class = "form-control" placeholder="Enter your email address">
+              <button type = "submit" class = "subscribe-btn">
+                subscribe
+                <i class = "fas fa-chevron-right"></i>
+              </button>
+            </div>
+          </form>
+
+          <div class = "circle-box circle-1"></div>
+          <div class = "circle-box circle-2"></div>
+        </div>
+      </div>
+    </section>
+
+
+    <footer class = "footer container">
+      <div class = "footer-item">
+        <h2 class = "brand-name">
+          Urbane <span>Seat</span>
+        </h2>
+        <p>social media accounts</p>
+        <ul class = "footer-icons">
+          <li>
+            <a href = "/"><i class = "fab fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href = "/"><i class = "fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href = "/"><i class = "fab fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href = "https://www.linkedin.com/in/gautam-mehendale-045168286/"><i class = "fab fa-linkedin"></i></a>
+          </li>
+          <li>
+            <a href = "/"><i class = "fab fa-google-plus-g"></i></a>
+          </li>
+        </ul>
+      </div>
+
+      <div class = "footer-item">
+        <h3>links</h3>
+        <ul>
+          <li><a href = "/">home</a></li>
+          <li><a href = "/">download</a></li>
+          <li><a href = "/">pricing</a></li>
+          <li><a href = "/">about</a></li>
+        </ul>
+      </div>
+
+      <div class = "footer-item">
+        <h3>products</h3>
+        <ul>
+          <li><a href = "/">chair</a></li>
+          <li><a href = "/">sofa</a></li>
+          <li><a href = "/">pillow</a></li>
+          <li><a href = "/">cushion</a></li>
+        </ul>
+      </div>
+
+      <div class = "footer-item">
+        <h3>support</h3>
+        <ul>
+          <li><a href = "/">FAQ</a></li>
+          <li><a href = "/">how it works</a></li>
+          <li><a href = "/">features</a></li>
+          <li><a href = "/">contact</a></li>
+        </ul>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+    
+  </body>
+</html>
